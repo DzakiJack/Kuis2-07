@@ -35,6 +35,8 @@ public class Soal107 {
                 tidakLulus++;
             }
         }
+
+        sc.close();
         rata = (double) total / n;
         System.out.println("Rata-rata : " + rata);
         System.out.println("Nilai tertinggi : " + max);
